@@ -1,0 +1,42 @@
+html{
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: radial-gradient(#FFBAC2, #c2d6f6, white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+    height: 100vh;
+}
+
+.love-img{
+    width: 405px;
+    height: 361.55px;
+}
+
+.button-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Panchang', sans-serif;
+    font-size: 5vw;
+    text-align: center;
+    color: #f8f8dd;
+    text-decoration: none;
+    letter-spacing: .2rem;
+}
+
+.button-text:hover {
+    cursor: pointer;
+    text-shadow: 0 0 1px #f8f8dd,
+                 0 0 5px #f8f8dd;
+}

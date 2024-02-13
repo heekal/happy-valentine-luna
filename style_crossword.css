@@ -1,0 +1,117 @@
+html{
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-position: 0px 0px;
+    background: radial-gradient(#f2a1ab, #ffd6be);
+    font-family: 'Chillax', sans-serif;;
+}
+
+.back-btn{
+    font-family: 'Satoshi', sans-serif;
+    position: fixed;
+    top: 25px;
+    left: 50px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.back-btn:hover {
+    cursor: pointer;
+    text-shadow: 0 0 1px #f8f8dd,
+                 0 0 5px #f8f8dd;
+}
+
+table{
+    padding-left: 12vw;
+    padding-top: 10vh
+}
+
+th{
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid #FFCF96;
+    position: relative;   
+    cursor: pointer;
+}
+
+.b{
+    background: #FF8080;
+    border: 1px solid #FFCF96;
+    cursor:default;
+}
+.inv{
+    background: transparent;
+    border: transparent;
+    cursor: default;
+}
+.w{
+    background: white;
+}
+
+.w:hover{
+    background: #f2a1ab;
+}
+
+th span{
+    font-size: 8px;
+    color: black;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+
+th b{
+    font-size: 15px;
+}
+
+section{
+    display: flex;
+}
+
+.heart{
+    position: fixed;
+    top: -1vh;
+    font-size: 2rem;
+    transform: translate(8);
+    animation: fall 5s linear infinite;
+    color : #ff3366;
+    text-shadow: 5 5 1px #f8f8dd,
+    0 0 5px #f8f8dd;
+}
+@keyframes fall{
+    to{
+        transform: translateY(105vh);
+    }
+}
+.down{
+    color: white;
+    padding-left: 5vw;
+    padding-top: 25vh;
+    width: 20%;
+}
+.across{
+    color: white;
+    padding-top: 25vh;
+    padding-left: 3vw;
+    width: 20%;
+}
+
+.title-text{
+    position: fixed;
+    color: white;
+    text-shadow: 0 0 1px #f8f8dd,
+    0 0 5px #f8f8dd;
+    top:15vh;
+    padding-left: 56.7vw;
+}
